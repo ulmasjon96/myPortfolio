@@ -1,0 +1,190 @@
+========================================
+📦 2. ASOSIY KUTUBXONALAR
+========================================
+Kutubxona: react, react-dom
+Maqsadi : React komponentlar ishlashi uchun
+O‘rnatish: (Vite avtomatik o‘rnatadi)
+Izoh    : React’ning yuragi va DOM bilan ishlash uchun
+
+Kutubxona: typescript
+Maqsadi : TypeScript kodini tahlil qiladi
+O‘rnatish: (Vite avtomatik o‘rnatadi)
+Izoh    : .tsx fayllar uchun majburiy
+
+Kutubxona: @types/react, @types/react-dom
+Maqsadi : TypeScript uchun turlarni beradi
+O‘rnatish: npm i -D @types/react @types/react-dom
+Izoh    : TypeScript React’ni to‘g‘ri tanib oladi
+
+Kutubxona: vite
+Maqsadi : Tez build va dev server
+O‘rnatish: (Avtomatik)
+Izoh    : Webpack’ga o‘xshash, lekin 10x tezroq
+
+
+========================================
+🎨 3. UI VA STYLING KUTUBXONALARI
+========================================
+Kutubxona: tailwindcss
+Maqsadi : Utility-based CSS framework
+O‘rnatish: npm i -D tailwindcss postcss autoprefixer
+Izoh    : Juda mashhur, Vite bilan mos
+
+Kutubxona: @emotion/react + @emotion/styled
+Maqsadi : CSS-in-JS yechimi
+O‘rnatish: npm i @emotion/react @emotion/styled
+Izoh    : Material UI bilan ishlaydi
+
+Kutubxona: styled-components
+Maqsadi : Komponent ichida CSS yozish
+O‘rnatish: npm i styled-components + npm i -D @types/styled-components
+Izoh    : Juda keng qo‘llanadi
+
+Kutubxona: sass
+Maqsadi : SCSS fayllar bilan ishlash
+O‘rnatish: npm i -D sass
+Izoh    : .scss fayllarni to‘g‘ridan-to‘g‘ri import qilish mumkin
+
+
+========================================
+🧱 4. UI KOMPONENT KUTUBXONALARI
+========================================
+Kutubxona: MUI (Material UI)
+Maqsadi : Tayyor professional komponentlar
+O‘rnatish: npm i @mui/material @emotion/react @emotion/styled
+Izoh    : Responsive dizayn uchun mukammal
+
+Kutubxona: Ant Design
+Maqsadi : Korporativ UI komponentlar
+O‘rnatish: npm i antd
+Izoh    : Juda katta komponent to‘plami
+
+Kutubxona: Shadcn/UI
+Maqsadi : Tailwind asosidagi zamonaviy komponentlar
+O‘rnatish: npx shadcn-ui init
+Izoh    : Minimalistik, developer-friendly
+
+Kutubxona: Chakra UI
+Maqsadi : Oson va moslashuvchan komponentlar
+O‘rnatish: npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+Izoh    : Yengil va TypeScript bilan mukammal ishlaydi
+
+
+========================================
+⚙️ 5. ROUTER VA NAVIGATSIYA
+========================================
+Kutubxona: react-router-dom
+Maqsadi : Sahifalar orasida navigatsiya
+O‘rnatish: npm i react-router-dom
+Izoh    : TypeScript bilan to‘liq mos
+
+
+========================================
+📡 6. MA’LUMOT OLISH (API)
+========================================
+Kutubxona: axios
+Maqsadi : API so‘rovlarini yuborish
+O‘rnatish: npm i axios
+Izoh    : Fetch’ga nisbatan qulayroq
+
+Kutubxona: @tanstack/react-query
+Maqsadi : Server state boshqaruvi
+O‘rnatish: npm i @tanstack/react-query
+Izoh    : Caching, refetch, loading states uchun
+
+Kutubxona: zustand
+Maqsadi : Kichik global state management
+O‘rnatish: npm i zustand
+Izoh    : Redux’ga nisbatan yengilroq
+
+
+========================================
+🧠 7. STATE MANAGEMENT (KATTA LOYIHALAR)
+========================================
+Kutubxona: redux + @reduxjs/toolkit
+Maqsadi : Keng miqyosli state boshqaruvi
+O‘rnatish: npm i @reduxjs/toolkit react-redux
+Izoh    : Eng mashhur va standart
+
+Kutubxona: recoil
+Maqsadi : React uchun yengil state manager
+O‘rnatish: npm i recoil
+Izoh    : Hooks bilan ishlaydi
+
+Kutubxona: zustand
+Maqsadi : Minimal state boshqaruv
+O‘rnatish: npm i zustand
+Izoh    : Juda soddaligi bilan mashhur
+
+
+========================================
+🧰 8. FOYDALI QO‘SHIMCHA KUTUBXONALAR
+========================================
+Kutubxona: clsx
+Maqsadi : Dinamik klass nomlarini boshqarish
+O‘rnatish: npm i clsx
+Izoh    : className={clsx('btn', active && 'btn-active')}
+
+Kutubxona: framer-motion
+Maqsadi : Animatsiyalar va sahifa o‘tish effekti
+O‘rnatish: npm i framer-motion
+Izoh    : React bilan mukammal integratsiya
+
+Kutubxona: dayjs yoki date-fns
+Maqsadi : Sana va vaqt bilan ishlash
+O‘rnatish: npm i dayjs
+Izoh    : Moment.js’ga yengil alternativa
+
+Kutubxona: react-icons
+Maqsadi : Belgilar to‘plami
+O‘rnatish: npm i react-icons
+Izoh    : Har qanday UI uchun piktogrammalar
+
+Kutubxona: zod yoki yup
+Maqsadi : Ma’lumot validatsiyasi
+O‘rnatish: npm i zod
+Izoh    : Form va API validatsiyasi uchun
+
+Kutubxona: react-hook-form
+Maqsadi : Formlar boshqaruvi
+O‘rnatish: npm i react-hook-form
+Izoh    : TypeScript bilan mukammal integratsiya
+
+
+========================================
+🧑‍💻 9. ISHLAB CHIQISH QUYALIGI
+========================================
+Kutubxona: eslint
+Maqsadi : Kod sifatini tekshirish
+O‘rnatish: npm i -D eslint
+Izoh    : Kodni silliq saqlaydi
+
+Kutubxona: prettier
+Maqsadi : Kod formatlash
+O‘rnatish: npm i -D prettier
+Izoh    : Kod bir xil formatda bo‘ladi
+
+Kutubxona: husky + lint-staged
+Maqsadi : Git commitda avtomatik lint/format
+O‘rnatish: npm i -D husky lint-staged
+Izoh    : Kod sifatini saqlaydi
+
+Kutubxona: vite-plugin-svgr
+Maqsadi : SVG fayllarni komponent sifatida ishlatish
+O‘rnatish: npm i vite-plugin-svgr
+Izoh    : <Logo /> tarzida SVG import qilish
+
+Kutubxona: vite-tsconfig-paths
+Maqsadi : Tsconfig yo‘llarini avtomatik aniqlash
+O‘rnatish: npm i -D vite-tsconfig-paths
+Izoh    : Importlarni soddalashtiradi
+
+
+========================================
+🧩 10. MINIMAL FOYDALI TO‘PLAM
+========================================
+========================================
+🔥 TAYYOR KOMANDA (BARCHASINI BIRGA O‘RNATISH)
+========================================
+npm i react react-dom react-router-dom axios @tanstack/react-query zustand @reduxjs/toolkit react-redux clsx react-icons framer-motion react-hook-form zod yup dayjs lodash nanoid uuid @mui/material @emotion/react @emotion/styled @chakra-ui/react shadcn-ui
+npm i -D typescript @types/react @types/react-dom tailwindcss postcss autoprefixer sass eslint prettier husky lint-staged vite-tsconfig-paths vite-plugin-svgr vite-plugin-eslint @vitejs/plugin-react vite-plugin-pwa
