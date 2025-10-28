@@ -1,24 +1,63 @@
-# Logs
+# ======== 📁 LOG FAYLLAR ========
+
+# Barcha "logs" nomli papkalarni e'tiborga olma
 logs
+
+# ".log" kengaytmali fayllarni e'tiborga olma (masalan, app.log, error.log va h.k.)
 *.log
+
+# npm (Node Package Manager) ish paytida chiqadigan xato log fayllarini e'tiborga olma
 npm-debug.log*
+
+# yarn package manager uchun debug log fayllar
 yarn-debug.log*
+
+# yarn xatolik log fayllar
 yarn-error.log*
+
+# pnpm package manager debug log fayllari
 pnpm-debug.log*
+
+# lerna (monorepo boshqaruv vositasi) uchun debug log fayllari
 lerna-debug.log*
 
+
+# ======== 📦 BUILD VA MODULLAR ========
+
+# "node_modules" papkasini e'tiborga olma
+# (bu papka juda katta bo‘ladi va "npm install" bilan qayta tiklanadi)
 node_modules
+
+# "dist" papkasi — ishlab chiqishdan keyin yaratilgan (build) fayllar saqlanadigan joy
 dist
+
+# "dist-ssr" — server-side rendering uchun build papkasi
 dist-ssr
+
+# ".local" kengaytmali fayllar (mahalliy sozlamalar) e'tiborga olinmaydi
 *.local
 
-# Editor directories and files
+
+# ======== 🧑‍💻 MUHARRIR (EDITOR) FAYLLARI ========
+
+# VS Code sozlamalari papkasi, lekin ichidagi "extensions.json" faylni saqlab qolamiz
 .vscode/*
+
+# Shu faylni esa istisno qilib, saqlaymiz (loyihada tavsiya etilgan extensionlar ro‘yxati)
 !.vscode/extensions.json
+
+# JetBrains IDE (masalan, WebStorm, IntelliJ) sozlamalar papkasi
 .idea
+
+# macOS tizimida avtomatik yaratiladigan tizim fayli
 .DS_Store
+
+# Visual Studio sozlamalari fayllari
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
+
+# .swp fayllar — matn muharrirlari (masalan, Vim) vaqtinchalik fayllari
 *.sw?
+
