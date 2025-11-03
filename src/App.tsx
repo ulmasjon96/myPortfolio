@@ -1,5 +1,11 @@
-import './scss/App.scss';
+import './scss/App.css';
 
 export default function App() {
-	return <></>;
+	return (
+		<>
+			<div className="App">
+				<h1>My Portfolio</h1>
+			</div>
+		</>
+	);
 }
