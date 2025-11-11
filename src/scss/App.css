@@ -1,6 +1,23 @@
-.App {
+:root {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: min(100%, 1550px);
   height: 100vh;
+  background-color: black;
 }/*# sourceMappingURL=App.css.map */

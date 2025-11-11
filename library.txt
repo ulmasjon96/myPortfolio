@@ -188,3 +188,23 @@ Izoh    : Importlarni soddalashtiradi
 ========================================
 npm i react react-dom react-router-dom axios @tanstack/react-query zustand @reduxjs/toolkit react-redux clsx react-icons framer-motion react-hook-form zod yup dayjs lodash nanoid uuid @mui/material @emotion/react @emotion/styled @chakra-ui/react shadcn-ui
 npm i -D typescript @types/react @types/react-dom tailwindcss postcss autoprefixer sass eslint prettier husky lint-staged vite-tsconfig-paths vite-plugin-svgr vite-plugin-eslint @vitejs/plugin-react vite-plugin-pwa
+
+
+#1️⃣ Tailwind’ni sozlash
+npx tailwindcss init -p
+
+# 2️⃣ ESLint va Prettier sozlamalari
+npx eslint --init
+echo {} > .prettierrc
+
+# 3️⃣ Husky’ni ishga tushirish
+npx husky install
+
+## package.json faylida skriptlarni qo‘shing:
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview",
+  "lint": "eslint . --ext .ts,.tsx",
+  "format": "prettier --write ."
+}

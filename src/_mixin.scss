@@ -1,5 +1,12 @@
-@mixin flex($justify, $align) {
-  display: flex;
-  justify-content: $justify;
-  align-items: $align;
+@mixin display($display, $justify, $align) {
+	display: $display;
+	justify-content: $justify;
+	align-items: $align;
+}
+
+@mixin animation-delay($delay) {
+	-webkit-animation-delay: $delay;
+	-moz-animation-delay: $delay;
+	-o-animation-delay: $delay;
+	animation-delay: $delay;
 }

@@ -1,6 +1,22 @@
-@use '../mixin.scss' as *;
+@use '../_mixin.scss' as *;
 
-.App {
-	@include flex(center, center);
+:root {
+	@include display(flex, center, center);
+}
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	width: min(100%, 1550px);
 	height: 100vh;
+	background-color: black;
 }
